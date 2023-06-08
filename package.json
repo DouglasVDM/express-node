@@ -5,16 +5,19 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node hello.js",
-    "dev":"nodemon hello.js"
-
+    "start": "node hello.js",
+    "hello": "nodemon hello.js",
+    "app": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.1.4",
-    "http": "^0.0.1-security"
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "pg": "^8.11.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
